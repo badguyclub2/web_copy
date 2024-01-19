@@ -44,6 +44,11 @@
 #opt02{
   flex-flow: space-between;
   font-size: 1.2vw;
+
+@media screen and (max-width: 480px) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr))
+ }
 }
 
 #opt03{
